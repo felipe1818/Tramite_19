@@ -1,0 +1,14 @@
+{
+  "usuario": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@formcontrolname='email']"
+  },
+  "contrasena": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@formcontrolname='password']"
+  },
+  "iniciarsesion": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//button[contains(.,'INICIAR')])[1]"
+  }
+}
